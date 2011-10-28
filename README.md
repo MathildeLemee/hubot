@@ -33,3 +33,14 @@ It's easy to test scripts locally with an interactive shell:
 ...and to run tests:
 
     % make test
+
+## Twitter
+
+Just set the following environment variable to make your twitter bot
+
+process.env.HUBOT_TWITTER_KEY
+process.env.HUBOT_TWITTER_SECRET
+process.env.HUBOT_TWITTER_TOKEN
+process.env.HUBOT_TWITTER_TOKEN_SECRET
+
+If your bot is called hubotine , someone who tweets 'hubotine ping' or '@hubotine ping' with its @user account will received from your bot twitter account '@user PONG'
