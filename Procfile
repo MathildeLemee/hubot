@@ -1,1 +1,1 @@
-web: bin/hubot -a twitter -n Hubotine
+app: bin/hubot -a twitter -n Hubotine
